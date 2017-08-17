@@ -1,0 +1,12 @@
+<div>
+    <p>
+        Holi mundo!
+        Bienvenido, querido <%=@nombre%>
+    </p>
+    <p>Fecha de hoy: <%= Time.now %></p>
+    <ol>
+        <%@ary.each do |el|%>
+        <li><%=el%></li>
+        <%end%>
+    </ol>
+</div>
